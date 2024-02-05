@@ -1,0 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --Background-Darkmode: #262342;
+  --Text-Darkmode: #ebebeb;
+  --Hover: #adadad;
+}
