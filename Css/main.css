@@ -9,3 +9,7 @@
   --Text-Darkmode: #ebebeb;
   --Hover: #adadad;
 }
+body {
+  background-color: var(--Background-Darkmode);
+  color: var(--Text-Darkmode);
+}
