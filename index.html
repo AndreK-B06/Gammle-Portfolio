@@ -7,8 +7,11 @@
     <script src="./JS/main.js" defer></script>
     <title>André's Portfolio</title>
   </head>
+  <!-- ------
+     * Body *
+    -------->
   <body>
-    <header>
+    <header class="flex">
       <nav>
         <button class="nav-btn">Om meg</button>
         <button class="nav-btn">Fremhevede prosjekter</button>
@@ -19,7 +22,7 @@
     <!-- -------
      * Introduksjon *
     ---------->
-    <section>
+    <section class="flex" id="introduksjon">
       <img src="" alt="Meg på stranden" />
       <aside>
         <h1>André V. Kvist</h1>
@@ -29,32 +32,35 @@
     <!-- -------
      * Om meg *
     ---------->
-    <section>
+    <section class="flex" id="om-meg">
       <h3></h3>
-      <main>
+      <main class="flex">
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s
         </p>
-        <img src="" alt="Bilde av mit ansikt" />
       </main>
+      <img src="" alt="Bilde av mit ansikt" />
     </section>
     <!-- --------------------
      * Fremhevde prosjekter *
     ------------------------>
-    <section></section>
+    <section class="flex"></section>
     <!-- --------------
      * Små prosjekter *
     ------------------>
-    <section></section>
+    <section class="flex"></section>
     <!-- -------
      * Footer *
     ---------->
-    <footer>
-      <p>Email</p>
-      <img src="" alt="Linkedin" />
-      <img src="" alt="Github" />
+    <footer class="flex">
+      <p id="email">Email</p>
+      <div id="link">
+        <img src="" alt="Linkedin" />
+        <i class="fa-brands fa-github"></i>
+        <!-- <img src="" alt="Github" /> -->
+      </div>
       <p>Copitight Kodehode</p>
     </footer>
   </body>

@@ -13,3 +13,45 @@ body {
   background-color: var(--Background-Darkmode);
   color: var(--Text-Darkmode);
 }
+/* ---------
+ * General *
+ ----------*/
+.flex {
+  display: flex;
+}
+/* --------
+* Header *
+---------*/
+header {
+  justify-content: center;
+  margin: 10px 0px;
+}
+/* -------------
+* introduksjon *
+---------------*/
+#introduksjon {
+  justify-content: space-evenly;
+  margin: 50px 0px;
+}
+/* -------
+* Om meg *
+---------*/
+#om-meg {
+  justify-content: space-evenly;
+  margin: 50px 0px;
+}
+main {
+  justify-content: center;
+  max-width: 70%;
+}
+/* -------
+* Footer *
+---------*/
+footer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#link {
+  margin: 30px 0px;
+}
