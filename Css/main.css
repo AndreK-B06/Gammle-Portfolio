@@ -19,6 +19,14 @@ body {
 .flex {
   display: flex;
 }
+/* ? img */
+.meg {
+  width: 20%;
+  border-radius: 10px;
+}
+.icons {
+  width: 10%;
+}
 /* --------
 * Header *
 ---------*/
@@ -51,7 +59,9 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
-#link {
-  margin: 30px 0px;
+#icon-comtainer {
+  margin: 30px auto;
+  justify-content: center;
 }
