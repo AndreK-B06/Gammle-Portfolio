@@ -7,7 +7,8 @@
 :root {
   --Background-Darkmode: #262342;
   --Text-Darkmode: #ebebeb;
-  --Hover: #adadad;
+  --Text-Lightmod: rgb(24, 24, 24);
+  --Heder: #adadad;
 }
 body {
   background-color: var(--Background-Darkmode);
@@ -22,24 +23,51 @@ body {
 /* ? img */
 .meg {
   width: 20%;
+  height: 20%;
   border-radius: 10px;
+  box-shadow: -2px 2px 5px;
 }
 .icons {
   width: 10%;
+}
+/* --------
+* Text Styling *
+---------*/
+.text-paragraf,
+.nav-btn {
+  font-weight: bold;
+}
+h1 {
+  font-size: 50px;
+}
+
+/* --------
+* Button *
+---------*/
+.nav-btn {
+  color: var(--Text-Lightmod);
+  background: none;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 5px 10px;
 }
 /* --------
 * Header *
 ---------*/
 header {
   justify-content: center;
-  margin: 10px 0px;
+  background-color: rgba(var(--Heder), 0, 3);
 }
 /* -------------
 * introduksjon *
 ---------------*/
 #introduksjon {
   justify-content: space-evenly;
-  margin: 50px 0px;
+  margin: 50px 00px;
+}
+aside {
+  margin: auto 30px;
 }
 /* -------
 * Om meg *
