@@ -20,6 +20,11 @@ body {
 .flex {
   display: flex;
 }
+a {
+  color: var(--Text-Darkmode);
+  font-size: 20px;
+  cursor: pointer;
+}
 /* ? img */
 .meg,
 .my-projects {
@@ -30,7 +35,7 @@ body {
   margin-inline: 40px;
 }
 .icons {
-  width: 10%;
+  width: 30%;
 }
 /* --------
 * Text Styling *
@@ -90,6 +95,14 @@ main {
   align-items: center;
   margin-top: 30px;
   margin: 30px 30px;
+}
+#my-work {
+  flex-direction: column;
+  text-align: center;
+}
+#prosjekter {
+  justify-content: space-evenly;
+  margin: 20px 0px;
 }
 /* -------
 * Footer *
