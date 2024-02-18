@@ -8,7 +8,7 @@
   --Background-Darkmode: #262342;
   --Text-Darkmode: #ebebeb;
   --Text-Lightmod: rgb(24, 24, 24);
-  --Heder: #adadad;
+  --Heder: #adadaa3f;
 }
 body {
   background-color: var(--Background-Darkmode);
@@ -21,11 +21,13 @@ body {
   display: flex;
 }
 /* ? img */
-.meg {
+.meg,
+.my-projects {
   width: 20%;
   height: 20%;
   border-radius: 10px;
   box-shadow: -2px 2px 5px;
+  margin-inline: 40px;
 }
 .icons {
   width: 10%;
@@ -39,13 +41,16 @@ body {
 }
 h1 {
   font-size: 50px;
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* --------
 * Button *
 ---------*/
 .nav-btn {
-  color: var(--Text-Lightmod);
+  color: var(--Text-Darkmode);
   background: none;
   border: none;
   border-radius: 5px;
@@ -57,7 +62,10 @@ h1 {
 ---------*/
 header {
   justify-content: center;
-  background-color: rgba(var(--Heder), 0, 3);
+  background-color: var(--Heder);
+  backdrop-filter: blur(100px);
+  box-shadow: 0px 5px 5px #adadaa3f;
+  width: 100%;
 }
 /* -------------
 * introduksjon *
@@ -73,12 +81,15 @@ aside {
 * Om meg *
 ---------*/
 #om-meg {
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 50px 0px;
 }
 main {
-  justify-content: center;
-  max-width: 70%;
+  align-items: center;
+  margin-top: 30px;
+  margin: 30px 30px;
 }
 /* -------
 * Footer *
@@ -87,7 +98,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
+  margin: 30px 0px;
 }
 #icon-comtainer {
   margin: 30px auto;
