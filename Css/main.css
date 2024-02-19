@@ -96,6 +96,9 @@ main {
   margin-top: 30px;
   margin: 30px 30px;
 }
+/* ----------------
+* Fremhevde prosjekter *
+------------------*/
 #my-work {
   flex-direction: column;
   text-align: center;
@@ -103,6 +106,11 @@ main {
 #prosjekter {
   justify-content: space-evenly;
   margin: 20px 0px;
+}
+.my-projects {
+  transition-timing-function: ease-in-out;
+  transition: all 2s;
+  width: 20%;
 }
 /* -------
 * Footer *
@@ -116,4 +124,10 @@ footer {
 #icon-comtainer {
   margin: 30px auto;
   justify-content: center;
+}
+/* ---------
+ * hover *
+ ----------*/
+.my-projects:hover {
+  width: 30%;
 }
