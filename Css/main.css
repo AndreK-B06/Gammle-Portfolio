@@ -50,7 +50,13 @@ h1 {
   font-weight: 400;
   font-style: normal;
 }
-
+h1,
+h2,
+h3,
+.nav-btn,
+#email {
+  transition: color 2s;
+}
 /* --------
 * Button *
 ---------*/
@@ -130,4 +136,11 @@ footer {
  ----------*/
 .my-projects:hover {
   width: 30%;
+}
+h1:hover,
+h2:hover,
+h3:hover,
+.nav-btn:hover,
+#email:hover {
+  color: orange;
 }
