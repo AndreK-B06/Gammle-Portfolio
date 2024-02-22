@@ -18,8 +18,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--Text-Darkmode);
-  top: 0;
-  left: 0;
+  width: 100%;
 }
 /* ---------
  * General *
