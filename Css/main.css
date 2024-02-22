@@ -10,10 +10,12 @@
   --Text-Lightmod: rgb(24, 24, 24);
   --Heder: #adadaa3f;
   --h1-font: "Titillium Web", sans-serif;
-  --h1-font-weight: 0;
+  --boddy-text: "Raleway", sans-serif;
 }
 body {
-  background-color: var(--Background-Darkmode);
+  background-image: url("/Images/background-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   color: var(--Text-Darkmode);
 }
 /* ---------
@@ -33,6 +35,22 @@ a {
   color: var(--Text-Darkmode);
   font-size: 20px;
   cursor: pointer;
+}
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#video-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
 }
 /* ? img */
 .meg,
@@ -58,7 +76,7 @@ h1 {
   font-size: 50px;
   font-family: var(--h1-font);
   font-style: normal;
-  font-weight: 900;
+  font-weight: 800;
 }
 h1,
 h2,
@@ -67,18 +85,28 @@ h3,
 #email {
   transition: color 2s;
 }
-h1,
+h2,
+h3,
+p,
+.nav-btn,
+#email {
+  font-family: var(--boddy-text);
+  font-weight: 400;
+}
 h2,
 h3 {
   font-size: 25px;
 }
 p {
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 1px;
 }
 #email {
   text-decoration: underline;
+}
+.nav-btn {
+  font-size: 17px;
 }
 /* --------
 * Button *
@@ -110,6 +138,8 @@ header {
 #introduksjon {
   justify-content: space-evenly;
   margin: 50px 00px;
+  background: url(./vidios/introduksjon-bacrkground.mp4);
+  background-size: cover;
 }
 aside {
   margin: auto 30px;
@@ -180,7 +210,7 @@ footer {
  ----------*/
 .my-projects:hover {
   width: 25%;
-  height: 210px;
+  height: 220px;
 }
 h1:hover,
 h2:hover,
