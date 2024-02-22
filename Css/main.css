@@ -66,7 +66,6 @@ video {
 }
 .icons {
   width: 50px;
-  margin-inline: 30px;
 }
 /* --------
 * Text Styling *
@@ -202,13 +201,16 @@ footer {
   align-items: center;
   margin: 30px 0px;
 }
+#email {
+  margin: 10px 0px;
+}
 #icon-comtainer {
   margin: 30px 0px;
   justify-content: center;
   align-items: center;
 }
-#email {
-  margin: 10px 0px;
+.social-link {
+  margin-inline: 50px;
 }
 
 /* ---------
