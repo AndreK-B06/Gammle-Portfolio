@@ -14,7 +14,7 @@
   --boddy-text: "Raleway", sans-serif;
 }
 body {
-  background-image: url("/media/Background-img.jpg");
+  background-image: url("/media/background-img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--Text-Darkmode);
