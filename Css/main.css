@@ -6,7 +6,7 @@
 
 :root {
   --Background-Darkmode: #262342;
-  --Text-Darkmode: #9f9e9e;
+  --Text-Darkmode: #b7b7b7;
   --Text-Lightmod: rgb(24, 24, 24);
   --Hover: #ebebeb;
   --Heder: #adadaa3f;
@@ -206,6 +206,9 @@ footer {
   margin: 30px 0px;
   justify-content: center;
   align-items: center;
+}
+#email {
+  margin: 10px 0px;
 }
 
 /* ---------
