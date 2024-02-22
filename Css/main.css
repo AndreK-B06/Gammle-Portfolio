@@ -44,7 +44,8 @@ a {
   margin-inline: 40px;
 }
 .icons {
-  width: 30%;
+  width: 50px;
+  margin-inline: 30px;
 }
 /* --------
 * Text Styling *
@@ -169,9 +170,11 @@ footer {
   margin: 30px 0px;
 }
 #icon-comtainer {
-  margin: 30px auto;
+  margin: 30px 0px;
   justify-content: center;
+  align-items: center;
 }
+
 /* ---------
  * hover *
  ----------*/
