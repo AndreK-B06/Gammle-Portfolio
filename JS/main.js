@@ -1,2 +1,1 @@
-let vid = document.getElementById("source");
-vid.playrate = 1;
+document.querySelector("video").playbackRate = 0.4;

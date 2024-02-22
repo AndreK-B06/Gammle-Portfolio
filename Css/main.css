@@ -3,12 +3,12 @@
   padding: 0px;
   box-sizing: border-box;
 }
-/* #ebebeb */
 
 :root {
   --Background-Darkmode: #262342;
-  --Text-Darkmode: #d1d1d1;
+  --Text-Darkmode: #9f9e9e;
   --Text-Lightmod: rgb(24, 24, 24);
+  --Hover: #ebebeb;
   --Heder: #adadaa3f;
   --h1-font: "Titillium Web", sans-serif;
   --boddy-text: "Raleway", sans-serif;
@@ -218,5 +218,5 @@ h1:hover,
 h2:hover,
 h3:hover,
 .nav-btn:hover {
-  color: orange;
+  color: var(--Hover);
 }
