@@ -9,6 +9,8 @@
   --Text-Darkmode: #ebebeb;
   --Text-Lightmod: rgb(24, 24, 24);
   --Heder: #adadaa3f;
+  --h1-font: "Titillium Web", sans-serif;
+  --h1-font-weight: 0;
 }
 body {
   background-color: var(--Background-Darkmode);
@@ -17,7 +19,14 @@ body {
 /* ---------
  * General *
  ----------*/
-.flex {
+#introduksjon,
+#om-meg,
+#my-work,
+footer {
+  padding-inline: 80px;
+}
+.flex,
+#overlay {
   display: flex;
 }
 a {
@@ -46,9 +55,9 @@ a {
 }
 h1 {
   font-size: 50px;
-  font-family: "Metal Mania", system-ui;
-  font-weight: 400;
+  font-family: var(--h1-font);
   font-style: normal;
+  font-weight: 900;
 }
 h1,
 h2,
@@ -56,6 +65,19 @@ h3,
 .nav-btn,
 #email {
   transition: color 2s;
+}
+h1,
+h2,
+h3 {
+  font-size: 25px;
+}
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+#email {
+  text-decoration: underline;
 }
 /* --------
 * Button *
@@ -77,6 +99,9 @@ header {
   backdrop-filter: blur(100px);
   box-shadow: 0px 5px 5px #adadaa3f;
   width: 100%;
+  top: 0px;
+  position: sticky;
+  z-index: 1000;
 }
 /* -------------
 * introduksjon *
@@ -98,9 +123,13 @@ aside {
   margin: 50px 0px;
 }
 main {
+  justify-content: space-evenly;
   align-items: center;
   margin-top: 30px;
-  margin: 30px 30px;
+  margin: 60px 30px;
+}
+.text-paragraf {
+  width: 50%;
 }
 /* ----------------
 * Fremhevde prosjekter *
@@ -110,13 +139,25 @@ main {
   text-align: center;
 }
 #prosjekter {
+  position: static;
   justify-content: space-evenly;
-  margin: 20px 0px;
+  height: 150px;
+  margin-left: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .my-projects {
   transition-timing-function: ease-in-out;
-  transition: all 2s;
+  transition: all 1s;
   width: 20%;
+  height: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+img.my-projects,
+img.my-projects:hover {
+  margin: 0;
 }
 /* -------
 * Footer *
@@ -135,12 +176,12 @@ footer {
  * hover *
  ----------*/
 .my-projects:hover {
-  width: 30%;
+  width: 25%;
+  height: 210px;
 }
 h1:hover,
 h2:hover,
 h3:hover,
-.nav-btn:hover,
-#email:hover {
+.nav-btn:hover {
   color: orange;
 }
