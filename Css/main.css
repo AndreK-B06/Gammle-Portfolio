@@ -3,10 +3,11 @@
   padding: 0px;
   box-sizing: border-box;
 }
+/* #ebebeb */
 
 :root {
   --Background-Darkmode: #262342;
-  --Text-Darkmode: #ebebeb;
+  --Text-Darkmode: #d1d1d1;
   --Text-Lightmod: rgb(24, 24, 24);
   --Heder: #adadaa3f;
   --h1-font: "Titillium Web", sans-serif;
@@ -44,7 +45,8 @@ video {
 #video-wrapper {
   position: absolute;
   width: 100%;
-  height: 300px;
+  height: 400px;
+  top: 0;
   overflow: hidden;
   text-align: center;
   display: flex;
